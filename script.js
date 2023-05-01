@@ -17,7 +17,7 @@ function nextContainerForm() {
     if(currentIndex >= max - 1) {
         buttonNext.innerHTML = "Enviar";
         nextButtonDisplay.style.display = "none";
-        submitButton.style.display = "flex";
+        submitButton.style.display = "block";
     };
 
     if(currentIndex >= max) {
@@ -39,8 +39,8 @@ function backContainerForm() {
     currentIndex--
     };
 
-    if(submitButton.style.display === "flex" &&
-     nextButtonDisplay.style.display === "none") {
+    if(submitButton.style.display === "block" &&
+        nextButtonDisplay.style.display === "none") {
         submitButton.style.display = "none";
         nextButtonDisplay.style.display = "flex"
         buttonNext.innerHTML = "Próximo";
