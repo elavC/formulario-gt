@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+div.container {
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgb(83, 2, 118));
+    padding: 24px;
+    display: flex;
+
+}
+
+header.container {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 16px;
+    padding: 12px;
+    margin: auto;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+}
+
+header.container .information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+    font-size: 28px;
+}
+
+header.container .information-text p {
+    font-size: 20px;
+}
+
+br {
+ color: blueviolet;
+}
+

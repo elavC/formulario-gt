@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <header class="container">
+                <h1>Aquisição de Informações para Tráfego!</h1>
+                <h2>Favor preencher todos os dados para uma análise mais completa.</h2>
+            </header>
+
+            <section class="main">
+                <div class="container-form-group selected">
+                    <div class="container-form">
+                        <label for="name">Nome Pessoal</label>
+                        <input type="text" id="name" value="">
+                    </div>
+
+                    <div class="container-form">
+                        <label for="name-business">Nome da Empresa/Loja</label>
+                        <input type="text" id="name-business">
+                    </div>
+
+                    <div class="container-form">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="exemplo@gmail.com">
+                    </div>
+
+                    <div class="container-form">
+                        <label for="phone">Celular</label>
+                        <input type="phone" id="phone" placeholder="91989898989">
+                    </div>
+
+                    <div class="container-form">
+                        <label for="name-instagram">Instagram</label>
+                        <input type="text" id="name-instagram" placeholder="nome da loja sem o @">
+                    </div>
+                </div>
+
+                <div class="container-form-group ">
+                    <div class="container-question">
+                        <div class="container-title">
+                            <h3>O seu alcance é:</h3>
+                        </div>
+                        <div class="container-form">
+                            <select name="acting" id="region-atuation">
+                                <option value="selecionar">--Selecionar--</option>
+                                <option value="nacional">Nacional</option>
+                                <option value="estado">Estadual</option>
+                                <option value="municipio">Em alguns Municipios</option>
+                                <option value="bairro">Em baírros específicos</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="container-question">
+                        <div class="container-title">
+                            <h3>Seu horário de funcionamento é:</h3>
+                        </div>
+                        <div class="container-form">
+                            <select name="acting" id="yes-no">
+                                <option value="selecionar">--Selecionar--</option>
+                                <option value="comercial">Horário comercial</option>
+                                <option value="manha">Somente de manhã</option>
+                                <option value="tarde">Somente a tarde</option>
+                                <option value="noite">Somente a noite</option>
+                                <option value="24hrs">24hrs</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="container-question">
+                        <div class="container-title">
+                            <h3>Existe um sistema de entregas no seu negócio?</h3>
+                        </div>
+                        <div class="container-form">
+                            <select name="acting" id="time">
+                                <option value="selecionar">--Selecionar--</option>
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select>                
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-form-group">
+                    <div class="container-title bg-content">
+                        <h3>Qual objetivo devemos focar:</h3>
+                        <p>Marque quantos for necessário!</p>
+                    </div>
+                    <div class="container-form-objective">
+                        <div class="container-form">
+                            <label for="conversao">Conversao</label>
+                            <input type="checkbox" name="conversao" id="conversao" value="convercao">
+                        </div>
+                        <div class="container-form">
+                            <label for="engajamento">Engajamento</label>
+                            <input type="checkbox" name="engajamento" id="engajamento" value="engajamento">
+                        </div>
+                        <div class="container-form">
+                            <label for="cadastro">Gerar Cadastros</label>
+                            <input type="checkbox" name="cadastro" id="cadastro" value="cadastro">
+                        </div>
+                        <div class="container-form">
+                            <label for="alcance">Alcance de Público</label>
+                            <input type="checkbox" name="alcance" id="alcance" value="alcance">
+                        </div>
+                        <div class="container-form">
+                            <label for="visualizacao">Visualização nos vídeos</label>
+                            <input type="checkbox" name="visualizacao" id="visualizacao" value="visualizacao">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-form-group ">
+                    <div class="container-title">
+                        <h3>Selecione as caracteristicas do seu público alvo:</h3>
+                    </div>
+                    <div class="container-form">
+                        <label for="genero">Gênero:</label>
+                        <select name="genero" id="genero">
+                            <option value="homem">--Selecionar--</option>
+                            <option value="homem">Homen</option>
+                            <option value="mulher">Mulher</option>
+                            <option value="ambos">Ambos</option>
+                        </select>
+                    </div>
+                    <div class="container-form age-min-max">
+                        <label for="idade">Idade:</label>
+                        <input type="number" class="age" id="min-age"> Até:
+                        <input type="number" class="age" id="max-age">
+                    </div>
+                </div>
+
+                <div class="container-form-group">
+                    <div class="container-title">
+                        <h3>Selecione o Orçamento mensal para as campanhas</h3>
+                    </div>                
+
+                    <div class="container-form">
+                        <label for="orcamento">Orçamento: </label>
+                        <select name="orcamento" id="orcamento">
+                            <option value="homem">--Selecionar--</option>
+                            <option value="1000-">Até R$1.000</option>
+                            <option value="1000-1500">Entre R$1.000 e R$1.500</option>
+                            <option value="1500-2000">Entre R$1.500 e R$2.000</option>
+                            <option value="2000-2500">Entre R$2.000 e R$2.500</option>
+                            <option value="2500-3000">Entre R$2.500 e R$3.000</option>
+                            <option value="3000+">Acima de R$3.000</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container-button">
+                    <button type="button" id="button-back-one" class="button-back">Voltar</button>
+                    <button type="button" id="button-next-one" class="button-next">Próximo</button>
+                </div>
+
+                <form action="https://formsubmit.co/cristhianvcezar@gmail.com" method="POST">
+                    <!-- <input type="hidden" name="_next" value="sendForm.html"> -->
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="nome-pessoal" id="primeiro" class="hidden-input" required>
+                    <input type="text" name="nome-empresa" id="segundo" class="hidden-input" required>
+                    <input type="text" name="email" id="terceiro" class="hidden-input" required>
+                    <input type="text" name="celular" id="quarto" class="hidden-input" required>
+                    <input type="text" name="insta" id="quinto" class="hidden-input" required>
+                    <input type="text" name="area-atendimento" id="sexto" class="hidden-input" required>
+                    <input type="text" name="horario-funcionamento" id="setimo" class="hidden-input" required>
+                    <input type="text" name="delivery" id="oitavo" class="hidden-input" required>
+                    <input type="text" name="conversao" id="nono" class="hidden-input" required>
+                    <input type="text" name="engajamento" id="decimo" class="hidden-input" required>    
+                    <input type="text" name="cadastro" id="d-primeiro" class="hidden-input" required>
+                    <input type="text" name="alcance" id="d-segundo" class="hidden-input" required>
+                    <input type="text" name="visuakizacao-video" id="d-terceiro" class="hidden-input" required>
+                    <input type="text" name="genero" id="d-quarto" class="hidden-input" required>
+                    <input type="text" name="idade-min" id="d-quinto" class="hidden-input" required>
+                    <input type="text" name="idade-max" id="d-sexto" class="hidden-input" required>
+                    <input type="text" name="orcamento" id="d-setimo" class="hidden-input" required>
+                    <button type="submit" id="submit-button">Enviar Informações!</button>
+                </form>
+
+            </section>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

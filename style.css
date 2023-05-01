@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+}
+
+header.container {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+div.container {
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgb(83, 2, 118));
+    padding: 24px;
+}
+
+header.container h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+header.container h2 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+section.main .container-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+section.main .container-form-group .container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+section.main input {
+    border-radius: 16px;
+    padding: 12px ;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+section.main label {
+    font-weight: bold;
+}
+
+section.main .container-question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+section.main select {
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+section.main .container-question .container-form select:focus {
+    background-color: rgba(240, 248, 255, 0.486);
+}
+
+section.main .container-question .container-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px    
+}
+
+section.main .container-form-group .bg-content {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.378);
+    padding: 10px;
+    text-align: center;
+}
+
+section.main .container-form-group .container-form-objective {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.main .container-form-group .container-form-objective .container-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.main .container-form-group .age-min-max{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+section.main .container-form-group .container-form .age {
+    width: 60px;
+}
+
+
+section.main .container-form-group {
+    display: none;
+}
+
+section.main .selected {
+    display: flex;
+}
+
+.container-button {
+    margin: 24px 0;
+}
+
+section.main .container-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.main button {
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.main .button-next {
+    background-color: rgb(176, 246, 176);
+}
+
+section.main .button-back {
+    background-color: rgb(247, 93, 93);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form button {
+    background-color: rgb(176, 246, 176);
+    /* display: none; */
+}
+
+form .hidden-input {
+    display: none;
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 800px) {
+    .bg-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+}
+
