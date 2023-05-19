@@ -65,6 +65,7 @@ const time = document.getElementById('time');
 const yesNo = document.getElementById('yes-no');
 const conversao = document.getElementById('conversao');
 const engajamento = document.getElementById('engajamento');
+const seguidores = document.getElementById('seguidores');
 const cadastro = document.getElementById('cadastro');
 const alcance = document.getElementById('alcance');
 const visualizacao = document.getElementById('visualizacao');
@@ -84,6 +85,7 @@ function setChange() {
     let yes_no = yesNo.options[yesNo.selectedIndex].value;
     let conversao_ = conversao.checked;
     let engajamento_ = engajamento.checked;
+    let seguidores_ = seguidores.checked;
     let cadastro_ = cadastro.checked;
     let alcance_ = alcance.checked;
     let visualizacao_ = visualizacao.checked;
@@ -109,6 +111,8 @@ function setChange() {
     let decQuinto = document.getElementById('d-quinto');
     let decSexto = document.getElementById('d-sexto');
     let decSetimo = document.getElementById('d-setimo');
+    let decOitavo = document.getElementById('d-oitavo');
+    
 
     primeiro.value = name_client;
     segundo.value = name_business;
@@ -127,25 +131,27 @@ function setChange() {
     decQuinto.value = min_age;
     decSexto.value = max_age;
     decSetimo.value = orcamento_;
+    decOitavo.value = seguidores_;
 }
 
 nameClient.addEventListener('change', setChange);
 nameBusiness.addEventListener('change', setChange);
 email.addEventListener('change', setChange); 
 phone.addEventListener('change', setChange);
-nameInstagram.addEventListener('change', setChange) 
-regionAtuation.addEventListener('change', setChange) 
-time.addEventListener('change', setChange) 
-yesNo.addEventListener('change', setChange) 
-conversao.addEventListener('change', setChange) 
-engajamento.addEventListener('change', setChange) 
-cadastro.addEventListener('change', setChange) 
-alcance.addEventListener('change', setChange) 
-visualizacao.addEventListener('change', setChange) 
-genero.addEventListener('change', setChange) 
-minAge.addEventListener('change', setChange) 
-maxAge.addEventListener('change', setChange) 
-orcamento.addEventListener('change', setChange) 
+nameInstagram.addEventListener('change', setChange); 
+regionAtuation.addEventListener('change', setChange); 
+time.addEventListener('change', setChange); 
+yesNo.addEventListener('change', setChange); 
+conversao.addEventListener('change', setChange); 
+engajamento.addEventListener('change', setChange);
+seguidores.addEventListener('change', setChange); 
+cadastro.addEventListener('change', setChange); 
+alcance.addEventListener('change', setChange); 
+visualizacao.addEventListener('change', setChange); 
+genero.addEventListener('change', setChange); 
+minAge.addEventListener('change', setChange); 
+maxAge.addEventListener('change', setChange); 
+orcamento.addEventListener('change', setChange); 
 
     
 

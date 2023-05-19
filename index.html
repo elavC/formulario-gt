@@ -11,8 +11,8 @@
     <div class="bg-container">
         <div class="container">
             <header class="container">
-                <h1>Aquisição de Informações para Tráfego!</h1>
-                <h2>Favor preencher todos os dados para uma análise mais completa.</h2>
+                <h1>Informações para gestão de Tráfego!</h1>
+                <h2>Favor preencher o maior número de informações que puder.</h2>
             </header>
 
             <section class="main">
@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="container-form">
-                        <label for="name-business">Nome da Empresa/Loja</label>
+                        <label for="name-business">Nome da Empresa/Loja se houver</label>
                         <input type="text" id="name-business">
                     </div>
 
@@ -39,14 +39,14 @@
 
                     <div class="container-form">
                         <label for="name-instagram">Instagram</label>
-                        <input type="text" id="name-instagram" placeholder="nome da loja sem o @">
+                        <input type="text" id="name-instagram" placeholder="Sem o @">
                     </div>
                 </div>
 
                 <div class="container-form-group ">
                     <div class="container-question">
                         <div class="container-title">
-                            <h3>O seu alcance é:</h3>
+                            <h3>Qual região você atende atualmente:</h3>
                         </div>
                         <div class="container-form">
                             <select name="acting" id="region-atuation">
@@ -77,7 +77,7 @@
 
                     <div class="container-question">
                         <div class="container-title">
-                            <h3>Existe um sistema de entregas no seu negócio?</h3>
+                            <h3>Existe um sistema de entregas(delivery) no seu negócio?</h3>
                         </div>
                         <div class="container-form">
                             <select name="acting" id="time">
@@ -96,12 +96,16 @@
                     </div>
                     <div class="container-form-objective">
                         <div class="container-form">
-                            <label for="conversao">Conversao</label>
+                            <label for="conversao">Conversão</label>
                             <input type="checkbox" name="conversao" id="conversao" value="convercao">
                         </div>
                         <div class="container-form">
                             <label for="engajamento">Engajamento</label>
                             <input type="checkbox" name="engajamento" id="engajamento" value="engajamento">
+                        </div>
+                        <div class="container-form">
+                            <label for="seguidores">Mais seguidores</label>
+                            <input type="checkbox" name="seguidores" id="seguidores" value="seguidores">
                         </div>
                         <div class="container-form">
                             <label for="cadastro">Gerar Cadastros</label>
@@ -147,8 +151,8 @@
                         <label for="orcamento">Orçamento: </label>
                         <select name="orcamento" id="orcamento">
                             <option value="homem">--Selecionar--</option>
-                            <option value="1000-">Até R$1.000</option>
-                            <option value="1000-1500">Entre R$1.000 e R$1.500</option>
+                            <option value="1000-">Até R$500,00</option>
+                            <option value="1000-1500">Entre R$500,00 e R$1.500</option>
                             <option value="1500-2000">Entre R$1.500 e R$2.000</option>
                             <option value="2000-2500">Entre R$2.000 e R$2.500</option>
                             <option value="2500-3000">Entre R$2.500 e R$3.000</option>
@@ -167,22 +171,23 @@
                     <input type="hidden" name="_template" value="box">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="nome-pessoal" id="primeiro" class="hidden-input" required>
-                    <input type="text" name="nome-empresa" id="segundo" class="hidden-input" required>
+                    <input type="text" name="nome-empresa" id="segundo" class="hidden-input">
                     <input type="text" name="email" id="terceiro" class="hidden-input" required>
-                    <input type="text" name="celular" id="quarto" class="hidden-input" required>
-                    <input type="text" name="insta" id="quinto" class="hidden-input" required>
-                    <input type="text" name="area-atendimento" id="sexto" class="hidden-input" required>
-                    <input type="text" name="horario-funcionamento" id="setimo" class="hidden-input" required>
-                    <input type="text" name="delivery" id="oitavo" class="hidden-input" required>
-                    <input type="text" name="conversao" id="nono" class="hidden-input" required>
-                    <input type="text" name="engajamento" id="decimo" class="hidden-input" required>    
-                    <input type="text" name="cadastro" id="d-primeiro" class="hidden-input" required>
-                    <input type="text" name="alcance" id="d-segundo" class="hidden-input" required>
-                    <input type="text" name="visuakizacao-video" id="d-terceiro" class="hidden-input" required>
-                    <input type="text" name="genero" id="d-quarto" class="hidden-input" required>
-                    <input type="text" name="idade-min" id="d-quinto" class="hidden-input" required>
-                    <input type="text" name="idade-max" id="d-sexto" class="hidden-input" required>
-                    <input type="text" name="orcamento" id="d-setimo" class="hidden-input" required>
+                    <input type="text" name="celular" id="quarto" class="hidden-input">
+                    <input type="text" name="insta" id="quinto" class="hidden-input">
+                    <input type="text" name="area-atendimento" id="sexto" class="hidden-input">
+                    <input type="text" name="horario-funcionamento" id="setimo" class="hidden-input">
+                    <input type="text" name="delivery" id="oitavo" class="hidden-input">
+                    <input type="text" name="conversao" id="nono" class="hidden-input">
+                    <input type="text" name="engajamento" id="decimo" class="hidden-input">
+                    <input type="text" name="seguidores" id="d-oitavo" class="hidden-input">    
+                    <input type="text" name="cadastro" id="d-primeiro" class="hidden-input">
+                    <input type="text" name="alcance" id="d-segundo" class="hidden-input">
+                    <input type="text" name="visuakizacao-video" id="d-terceiro" class="hidden-input">
+                    <input type="text" name="genero" id="d-quarto" class="hidden-input">
+                    <input type="text" name="idade-min" id="d-quinto" class="hidden-input">
+                    <input type="text" name="idade-max" id="d-sexto" class="hidden-input">
+                    <input type="text" name="orcamento" id="d-setimo" class="hidden-input">
                     <button type="submit" id="submit-button">Enviar Informações!</button>
                 </form>
 
