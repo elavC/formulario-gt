@@ -104,6 +104,7 @@ function setChange() {
     let oitavo = document.getElementById('oitavo');
     let nono = document.getElementById('nono');
     let decimo = document.getElementById('decimo');
+    let decOitavo = document.getElementById('d-oitavo');
     let decPrimeiro = document.getElementById('d-primeiro');
     let decSegundo = document.getElementById('d-segundo');
     let decTerceiro = document.getElementById('d-terceiro');
@@ -111,7 +112,6 @@ function setChange() {
     let decQuinto = document.getElementById('d-quinto');
     let decSexto = document.getElementById('d-sexto');
     let decSetimo = document.getElementById('d-setimo');
-    let decOitavo = document.getElementById('d-oitavo');
     
 
     primeiro.value = name_client;
@@ -124,6 +124,7 @@ function setChange() {
     oitavo.value = yes_no;
     nono.value = conversao_;
     decimo.value = engajamento_;
+    decOitavo.value = seguidores_;
     decPrimeiro.value = cadastro_;
     decSegundo.value = alcance_;
     decTerceiro.value = visualizacao_;
@@ -131,7 +132,6 @@ function setChange() {
     decQuinto.value = min_age;
     decSexto.value = max_age;
     decSetimo.value = orcamento_;
-    decOitavo.value = seguidores_;
 }
 
 nameClient.addEventListener('change', setChange);
