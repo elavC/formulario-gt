@@ -95,6 +95,10 @@ section.main .container-form-group .bg-content {
     text-align: center;
 }
 
+section.main .container-form-group .bg-content .infor {
+    color: red;
+}
+
 section.main .container-form-group .container-form-objective {
     display: flex;
     flex-direction: column;
@@ -107,7 +111,7 @@ section.main .container-form-group .container-form-objective .container-form {
     justify-content: space-between;
 }
 
-section.main .container-form-group .age-min-max{
+section.main .container-form-group .age-min-max {
     display: flex;
     flex-direction: row;
     align-items: center;
